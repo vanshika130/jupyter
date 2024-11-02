@@ -1,0 +1,2006 @@
+{
+    "Python": {
+        "Easy": [
+            {
+                "id": 1,
+                "question": "What is the output of print(2 + 3)?",
+                "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 2,
+                "question": "How do you create a list in Python?",
+                "options": [
+                    "Using parentheses ()",
+                    "Using square brackets []",
+                    "Using curly braces {}",
+                    "Using angle brackets <>"
+                ],
+                "answer": "Using square brackets []"
+            },
+            {
+                "id": 3,
+                "question": "What keyword is used to define a function in Python?",
+                "options": [
+                    "func",
+                    "def",
+                    "define",
+                    "lambda"
+                ],
+                "answer": "def"
+            },
+            {
+                "id": 4,
+                "question": "Which of the following is a mutable data type in Python?",
+                "options": [
+                    "Tuple",
+                    "String",
+                    "List",
+                    "Dictionary"
+                ],
+                "answer": "List"
+            },
+            {
+                "id": 5,
+                "question": "What is the output of print(type([]))?",
+                "options": [
+                    "<class 'list'>",
+                    "<class 'dict'>",
+                    "<class 'tuple'>",
+                    "<class 'set'>"
+                ],
+                "answer": "<class 'list'>"
+            },
+            {
+                "id": 6,
+                "question": "What is the correct syntax for a for loop in Python?",
+                "options": [
+                    "for i in range(5)",
+                    "for (i=0; i<5; i++)",
+                    "for i: 0 to 5",
+                    "for i in (5)"
+                ],
+                "answer": "for i in range(5)"
+            },
+            {
+                "id": 7,
+                "question": "Which operator is used to concatenate strings in Python?",
+                "options": [
+                    "+",
+                    "-",
+                    "*",
+                    "/"
+                ],
+                "answer": "+"
+            },
+            {
+                "id": 8,
+                "question": "What is the output of print(1 == 1)?",
+                "options": [
+                    "True",
+                    "False",
+                    "None",
+                    "Error"
+                ],
+                "answer": "True"
+            },
+            {
+                "id": 9,
+                "question": "How do you start a comment in Python?",
+                "options": [
+                    "//",
+                    "#",
+                    "/*",
+                    "<!--"
+                ],
+                "answer": "#"
+            },
+            {
+                "id": 10,
+                "question": "Which function is used to read input from the user in Python?",
+                "options": [
+                    "input()",
+                    "getInput()",
+                    "read()",
+                    "scan()"
+                ],
+                "answer": "input()"
+            },
+            {
+                "id": 11,
+                "question": "What is the output of print(3 * 2)?",
+                "options": [
+                    "6",
+                    "5",
+                    "8",
+                    "9"
+                ],
+                "answer": "6"
+            },
+            {
+                "id": 12,
+                "question": "Which keyword is used to import modules in Python?",
+                "options": [
+                    "import",
+                    "include",
+                    "require",
+                    "use"
+                ],
+                "answer": "import"
+            },
+            {
+                "id": 13,
+                "question": "What is the result of 'Hello' + ' World'?",
+                "options": [
+                    "HelloWorld",
+                    "Hello World",
+                    "Hello, World",
+                    "Error"
+                ],
+                "answer": "Hello World"
+            },
+            {
+                "id": 14,
+                "question": "Which of the following is a valid variable name in Python?",
+                "options": [
+                    "1variable",
+                    "_variable",
+                    "variable-name",
+                    "variable name"
+                ],
+                "answer": "_variable"
+            },
+            {
+                "id": 15,
+                "question": "What is the output of len('Python')?",
+                "options": [
+                    "6",
+                    "5",
+                    "7",
+                    "8"
+                ],
+                "answer": "6"
+            },
+            {
+                "id": 16,
+                "question": "How can you create a dictionary in Python?",
+                "options": [
+                    "Using []",
+                    "Using {}",
+                    "Using ()",
+                    "Using <>"
+                ],
+                "answer": "Using {}"
+            },
+            {
+                "id": 17,
+                "question": "What is the purpose of the 'break' statement?",
+                "options": [
+                    "To exit a loop",
+                    "To continue to the next iteration",
+                    "To stop a function",
+                    "To return a value"
+                ],
+                "answer": "To exit a loop"
+            },
+            {
+                "id": 18,
+                "question": "What will be the output of print(bool(0))?",
+                "options": [
+                    "True",
+                    "False",
+                    "None",
+                    "Error"
+                ],
+                "answer": "False"
+            },
+            {
+                "id": 19,
+                "question": "What is the method to add an element to a list?",
+                "options": [
+                    "add()",
+                    "append()",
+                    "insert()",
+                    "extend()"
+                ],
+                "answer": "append()"
+            },
+            {
+                "id": 20,
+                "question": "How do you handle exceptions in Python?",
+                "options": [
+                    "try-except",
+                    "catch-exception",
+                    "throw",
+                    "handle"
+                ],
+                "answer": "try-except"
+            }
+        ],
+        "Medium": [
+            {
+                "id": 21,
+                "question": "What will be the output of the following code?\n\nprint([i**2 for i in range(3)])",
+                "options": [
+                    "[0, 1, 2]",
+                    "[1, 4, 9]",
+                    "[0, 1, 4]",
+                    "[1, 4, 8]"
+                ],
+                "answer": "[0, 1, 4]"
+            },
+            {
+                "id": 22,
+                "question": "How can you reverse a list named 'my_list' in Python?",
+                "options": [
+                    "my_list.reverse()",
+                    "reverse(my_list)",
+                    "my_list[::-1]",
+                    "reversed(my_list)"
+                ],
+                "answer": "my_list.reverse()"
+            },
+            {
+                "id": 23,
+                "question": "What is the output of the following code?\n\nprint('Python'.find('t'))",
+                "options": [
+                    "0",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "2"
+            },
+            {
+                "id": 24,
+                "question": "Which statement correctly creates a dictionary in Python?",
+                "options": [
+                    "my_dict = {key1: 'value1', key2: 'value2'}",
+                    "my_dict = {'key1': 'value1', 'key2': 'value2'}",
+                    "my_dict = dict('key1': 'value1', 'key2': 'value2')",
+                    "my_dict = {'key1' = 'value1', 'key2' = 'value2'}"
+                ],
+                "answer": "my_dict = {'key1': 'value1', 'key2': 'value2'}"
+            },
+            {
+                "id": 25,
+                "question": "What will be the output of the following code?\n\nx = {'a': 1, 'b': 2}\nprint(x.get('c', 3))",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "None"
+                ],
+                "answer": "3"
+            },
+            {
+                "id": 26,
+                "question": "How can you merge two dictionaries, dict1 and dict2, in Python?",
+                "options": [
+                    "dict1 + dict2",
+                    "dict1 | dict2",
+                    "{**dict1, **dict2}",
+                    "dict1.merge(dict2)"
+                ],
+                "answer": "{**dict1, **dict2}"
+            },
+            {
+                "id": 27,
+                "question": "What is the output of the following code?\n\nmy_list = [1, 2, 3, 4]\nprint(my_list.pop(2))",
+                "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "IndexError"
+                ],
+                "answer": "3"
+            },
+            {
+                "id": 28,
+                "question": "Which function can be used to get both index and value of elements in a list during iteration?",
+                "options": [
+                    "enumerate()",
+                    "zip()",
+                    "map()",
+                    "list()"
+                ],
+                "answer": "enumerate()"
+            },
+            {
+                "id": 29,
+                "question": "What will be the output of the following code?\n\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)",
+                "options": [
+                    "[1, 2, 3]",
+                    "[1, 2, 3, 4]",
+                    "[1, 4]",
+                    "[4, 2, 3]"
+                ],
+                "answer": "[1, 2, 3, 4]"
+            },
+            {
+                "id": 30,
+                "question": "How do you check if a key exists in a dictionary?",
+                "options": [
+                    "if key in dict",
+                    "dict.has_key(key)",
+                    "dict.key()",
+                    "key in dict.keys()"
+                ],
+                "answer": "if key in dict"
+            },
+            {
+                "id": 31,
+                "question": "What will be the output of the following code?\n\nprint(', '.join(['apple', 'banana', 'cherry']))",
+                "options": [
+                    "apple, banana, cherry",
+                    "apple banana cherry",
+                    "['apple', 'banana', 'cherry']",
+                    "Error"
+                ],
+                "answer": "apple, banana, cherry"
+            },
+            {
+                "id": 32,
+                "question": "What is the correct way to remove duplicates from a list named 'my_list'?",
+                "options": [
+                    "my_list.unique()",
+                    "set(my_list)",
+                    "remove_duplicates(my_list)",
+                    "my_list.remove()"
+                ],
+                "answer": "set(my_list)"
+            },
+            {
+                "id": 33,
+                "question": "What will be the output of the following code?\n\nx = [1, 2, 3]\ny = x[:]\ny.append(4)\nprint(x)",
+                "options": [
+                    "[1, 2, 3]",
+                    "[1, 2, 3, 4]",
+                    "[4]",
+                    "[1]"
+                ],
+                "answer": "[1, 2, 3]"
+            },
+            {
+                "id": 34,
+                "question": "Which method is used to add a new element to the end of a list?",
+                "options": [
+                    "add()",
+                    "insert()",
+                    "append()",
+                    "push()"
+                ],
+                "answer": "append()"
+            },
+            {
+                "id": 35,
+                "question": "What will be the output of the following code?\n\nprint(bool([]))",
+                "options": [
+                    "True",
+                    "False",
+                    "None",
+                    "Error"
+                ],
+                "answer": "False"
+            },
+            {
+                "id": 36,
+                "question": "Which of the following is the correct way to define a class in Python?",
+                "options": [
+                    "class MyClass:",
+                    "MyClass define:",
+                    "def MyClass:",
+                    "MyClass = class()"
+                ],
+                "answer": "class MyClass:"
+            },
+            {
+                "id": 37,
+                "question": "What is the output of the following code?\n\ndef func(x=[]):\n    x.append(1)\n    return x\n\nprint(func())\nprint(func())",
+                "options": [
+                    "[1], [1]",
+                    "[1, 1]",
+                    "[1], [1, 1]",
+                    "Error"
+                ],
+                "answer": "[1, 1]"
+            },
+            {
+                "id": 38,
+                "question": "How do you create a set with elements 1, 2, 3?",
+                "options": [
+                    "set[1, 2, 3]",
+                    "{1, 2, 3}",
+                    "[1, 2, 3]",
+                    "set(1, 2, 3)"
+                ],
+                "answer": "{1, 2, 3}"
+            },
+            {
+                "id": 39,
+                "question": "What will be the output of the following code?\n\nx = {1, 2, 3}\nx.add(4)\nprint(x)",
+                "options": [
+                    "{1, 2, 3, 4}",
+                    "{1, 2, 3}",
+                    "[1, 2, 3, 4]",
+                    "Error"
+                ],
+                "answer": "{1, 2, 3, 4}"
+            },
+            {
+                "id": 40,
+                "question": "What will be the output of the following code?\n\ndef my_func(x, y=10):\n    return x + y\n\nprint(my_func(5))",
+                "options": [
+                    "10",
+                    "15",
+                    "5",
+                    "Error"
+                ],
+                "answer": "15"
+            }
+        ],
+        "Hard": [
+            {
+                "id": 41,
+                "question": "What will be the output of the following code?\n\na = [[1, 2], [3, 4]]\nprint(list(zip(*a)))",
+                "options": [
+                    "[(1, 3), (2, 4)]",
+                    "[(1, 2), (3, 4)]",
+                    "[[1, 3], [2, 4]]",
+                    "[(1, 4), (2, 3)]"
+                ],
+                "answer": "[(1, 3), (2, 4)]"
+            },
+            {
+                "id": 42,
+                "question": "How would you write a list comprehension that flattens a 2D list matrix?",
+                "options": [
+                    "[element for row in matrix]",
+                    "[element for row in matrix for element in row]",
+                    "flatten(matrix)",
+                    "list(matrix)"
+                ],
+                "answer": "[element for row in matrix for element in row]"
+            },
+            {
+                "id": 43,
+                "question": "What will be the output of the following code?\n\nx = {1, 2, 3}\ny = {2, 3, 4}\nprint(x & y)",
+                "options": [
+                    "{1, 2, 3, 4}",
+                    "{2, 3}",
+                    "{1}",
+                    "Error"
+                ],
+                "answer": "{2, 3}"
+            },
+            {
+                "id": 44,
+                "question": "Which method would you use to find the maximum key in a dictionary d based on values?",
+                "options": [
+                    "max(d.keys())",
+                    "max(d, key=d.get)",
+                    "d.get(max)",
+                    "d[max]"
+                ],
+                "answer": "max(d, key=d.get)"
+            },
+            {
+                "id": 45,
+                "question": "What is the output of the following code?\n\nf = lambda x: x**2\nresult = map(f, [1, 2, 3])\nprint(list(result))",
+                "options": [
+                    "[1, 4, 9]",
+                    "[1, 2, 3]",
+                    "[0, 1, 4, 9]",
+                    "[1, 2]"
+                ],
+                "answer": "[1, 4, 9]"
+            },
+            {
+                "id": 46,
+                "question": "What will be the output of the following code?\n\nclass A:\n    def _init_(self, x):\n        self.x = x\n\nobj = A(5)\nprint(obj.x)",
+                "options": [
+                    "5",
+                    "None",
+                    "Error",
+                    "0"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 47,
+                "question": "What is the correct syntax to create a generator for even numbers up to 10?",
+                "options": [
+                    "(x for x in range(10) if x % 2 == 0)",
+                    "[x for x in range(10) if x % 2 == 0]",
+                    "{x for x in range(10) if x % 2 == 0}",
+                    "(x % 2 == 0 for x in range(10))"
+                ],
+                "answer": "(x for x in range(10) if x % 2 == 0)"
+            },
+            {
+                "id": 48,
+                "question": "Which of the following correctly implements a decorator in Python?",
+                "options": [
+                    "@decorator\ndef my_function()",
+                    "def decorator(f): return f",
+                    "@my_function\ndef decorator()",
+                    "def decorator(): pass"
+                ],
+                "answer": "@decorator\ndef my_function()"
+            },
+            {
+                "id": 49,
+                "question": "What will be the output of the following code?\n\ndef func(x, y=[]):\n    y.append(x)\n    return y\n\nprint(func(1))\nprint(func(2))",
+                "options": [
+                    "[1], [2]",
+                    "[1, 2]",
+                    "[2, 1]",
+                    "[1], [1]"
+                ],
+                "answer": "[1, 2]"
+            },
+            {
+                "id": 50,
+                "question": "What will be the output of the following code?\n\nx = [[0]*3]*3\nx[0][0] = 1\nprint(x)",
+                "options": [
+                    "[[1, 0, 0], [0, 0, 0], [0, 0, 0]]",
+                    "[[1, 0, 0], [1, 0, 0], [1, 0, 0]]",
+                    "[[0, 0, 0], [0, 0, 0], [0, 0, 0]]",
+                    "[[1, 1, 1], [1, 1, 1], [1, 1, 1]]"
+                ],
+                "answer": "[[1, 0, 0], [1, 0, 0], [1, 0, 0]]"
+            },
+            {
+                "id": 51,
+                "question": "Which method can be used to copy all elements of a list a to a new list b?",
+                "options": [
+                    "b = a[:]",
+                    "b = a.copy()",
+                    "b = list(a)",
+                    "All of the above"
+                ],
+                "answer": "All of the above"
+            },
+            {
+                "id": 52,
+                "question": "What will be the output of the following code?\n\ntry:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Error')",
+                "options": [
+                    "Error",
+                    "1",
+                    "0",
+                    "None"
+                ],
+                "answer": "Error"
+            },
+            {
+                "id": 53,
+                "question": "What will be the output of the following code?\n\ndef foo(x, lst=[]):\n    lst.append(x)\n    return lst\n\nprint(foo(1))\nprint(foo(2))",
+                "options": [
+                    "[1], [2]",
+                    "[1, 2]",
+                    "[2, 1]",
+                    "[1], [1]"
+                ],
+                "answer": "[1, 2]"
+            },
+            {
+                "id": 54,
+                "question": "What is the result of the following code?\n\nx = (i for i in range(5))\nprint(sum(x))",
+                "options": [
+                    "10",
+                    "0",
+                    "15",
+                    "Error"
+                ],
+                "answer": "10"
+            },
+            {
+                "id": 55,
+                "question": "How can you find the most common element in a list 'lst'?",
+                "options": [
+                    "max(lst)",
+                    "Counter(lst).most_common(1)",
+                    "lst.most_common()",
+                    "sorted(lst)"
+                ],
+                "answer": "Counter(lst).most_common(1)"
+            },
+            {
+                "id": 56,
+                "question": "What will be the output of the following code?\n\nprint(2 * 3 * 2)",
+                "options": [
+                    "512",
+                    "64",
+                    "256",
+                    "16"
+                ],
+                "answer": "512"
+            },
+            {
+                "id": 57,
+                "question": "What is the output of the following code?\n\nlst = [True, False, True]\nprint(all(lst))",
+                "options": [
+                    "True",
+                    "False",
+                    "Error",
+                    "None"
+                ],
+                "answer": "False"
+            },
+            {
+                "id": 58,
+                "question": "How can you shuffle elements in a list my_list?",
+                "options": [
+                    "random.shuffle(my_list)",
+                    "my_list.shuffle()",
+                    "shuffle(my_list)",
+                    "my_list.sort()"
+                ],
+                "answer": "random.shuffle(my_list)"
+            },
+            {
+                "id": 59,
+                "question": "What will be the output of the following code?\n\nx = [i for i in range(5) if i % 2 == 0]\nprint(len(x))",
+                "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "answer": "3"
+            },
+            {
+                "id": 60,
+                "question": "What will be the output of the following code?\n\nimport functools\nresult = functools.reduce(lambda x, y: x + y, [1, 2, 3, 4])\nprint(result)",
+                "options": [
+                    "10",
+                    "24",
+                    "7",
+                    "None"
+                ],
+                "answer": "10"
+            }
+        ]
+    },
+    "Java": {
+        "Easy": [
+            {
+                "id": 61,
+                "question": "What will be the output of the following code?\n\nSystem.out.println(2 + 3);",
+                "options": [
+                    "5",
+                    "23",
+                    "Error",
+                    "0"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 62,
+                "question": "Which keyword is used to define a class in Java?",
+                "options": [
+                    "class",
+                    "Class",
+                    "define",
+                    "type"
+                ],
+                "answer": "class"
+            },
+            {
+                "id": 63,
+                "question": "What will be the output of the following code?\n\nSystem.out.println(10 / 3);",
+                "options": [
+                    "3.33",
+                    "3",
+                    "10/3",
+                    "Error"
+                ],
+                "answer": "3"
+            },
+            {
+                "id": 64,
+                "question": "Which of these data types can hold the largest value?",
+                "options": [
+                    "int",
+                    "double",
+                    "float",
+                    "long"
+                ],
+                "answer": "double"
+            },
+            {
+                "id": 65,
+                "question": "What is the default value of a boolean variable?",
+                "options": [
+                    "true",
+                    "false",
+                    "null",
+                    "0"
+                ],
+                "answer": "false"
+            },
+            {
+                "id": 66,
+                "question": "Which of these is a correct way to create an array of integers?",
+                "options": [
+                    "int[] arr;",
+                    "int arr;",
+                    "int arr[];",
+                    "arr[] int;"
+                ],
+                "answer": "int[] arr;"
+            },
+            {
+                "id": 67,
+                "question": "What will be the output of the following code?\n\nSystem.out.println(\"Hello\" + \"World\");",
+                "options": [
+                    "Hello World",
+                    "HelloWorld",
+                    "Hello+World",
+                    "Error"
+                ],
+                "answer": "HelloWorld"
+            },
+            {
+                "id": 68,
+                "question": "What is the size of an int in Java?",
+                "options": [
+                    "8 bytes",
+                    "2 bytes",
+                    "4 bytes",
+                    "1 byte"
+                ],
+                "answer": "4 bytes"
+            },
+            {
+                "id": 69,
+                "question": "Which of the following is not a Java keyword?",
+                "options": [
+                    "public",
+                    "static",
+                    "private",
+                    "unsigned"
+                ],
+                "answer": "unsigned"
+            },
+            {
+                "id": 70,
+                "question": "How do you start the main method in Java?",
+                "options": [
+                    "main()",
+                    "public static void main(String[] args)",
+                    "start()",
+                    "void main()"
+                ],
+                "answer": "public static void main(String[] args)"
+            },
+            {
+                "id": 71,
+                "question": "What will be the output of the following code?\n\nSystem.out.println(10 % 3);",
+                "options": [
+                    "1",
+                    "3",
+                    "10",
+                    "0"
+                ],
+                "answer": "1"
+            },
+            {
+                "id": 72,
+                "question": "Which symbol is used to access members of an object?",
+                "options": [
+                    ".",
+                    ";",
+                    ":",
+                    "::"
+                ],
+                "answer": "."
+            },
+            {
+                "id": 73,
+                "question": "What will be the output of the following code?\n\nString str = \"Hello\";\nSystem.out.println(str.length());",
+                "options": [
+                    "5",
+                    "6",
+                    "Error",
+                    "0"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 74,
+                "question": "How do you declare a variable that cannot be changed?",
+                "options": [
+                    "constant int x;",
+                    "final int x;",
+                    "immutable int x;",
+                    "static int x;"
+                ],
+                "answer": "final int x;"
+            },
+            {
+                "id": 75,
+                "question": "Which keyword is used to inherit a class in Java?",
+                "options": [
+                    "extend",
+                    "implements",
+                    "extends",
+                    "inherit"
+                ],
+                "answer": "extends"
+            },
+            {
+                "id": 76,
+                "question": "What will be the output of the following code?\n\nSystem.out.println(\"Java\".toUpperCase());",
+                "options": [
+                    "java",
+                    "Java",
+                    "JAVA",
+                    "Error"
+                ],
+                "answer": "JAVA"
+            },
+            {
+                "id": 77,
+                "question": "Which loop is guaranteed to execute at least once?",
+                "options": [
+                    "for",
+                    "while",
+                    "do-while",
+                    "for-each"
+                ],
+                "answer": "do-while"
+            },
+            {
+                "id": 78,
+                "question": "Which of these is the correct syntax for an if-statement?",
+                "options": [
+                    "if x > 10 {}",
+                    "if (x > 10) {}",
+                    "if x > 10 then {}",
+                    "if (x > 10);"
+                ],
+                "answer": "if (x > 10) {}"
+            },
+            {
+                "id": 79,
+                "question": "What is the output of the following code?\n\nSystem.out.println(\"Hello\\nWorld\");",
+                "options": [
+                    "Hello World",
+                    "Hello\nWorld",
+                    "Hello\\nWorld",
+                    "Error"
+                ],
+                "answer": "Hello\nWorld"
+            },
+            {
+                "id": 80,
+                "question": "How do you declare a method in Java that returns an integer?",
+                "options": [
+                    "int myMethod;",
+                    "int myMethod() {}",
+                    "void myMethod() {}",
+                    "method myMethod() int"
+                ],
+                "answer": "int myMethod() {}"
+            }
+        ],
+        "Medium": [
+            {
+                "id": 81,
+                "question": "What will be the output of the following code?\n\nint[] arr = {1, 2, 3};\nSystem.out.println(arr[1] + arr[2]);",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "5"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 82,
+                "question": "Which collection does not allow duplicate elements in Java?",
+                "options": [
+                    "List",
+                    "Set",
+                    "Map",
+                    "Queue"
+                ],
+                "answer": "Set"
+            },
+            {
+                "id": 83,
+                "question": "What does the following code output?\n\nString str = \"Java\";\nSystem.out.println(str.substring(1, 3));",
+                "options": [
+                    "Ja",
+                    "av",
+                    "a",
+                    "v"
+                ],
+                "answer": "av"
+            },
+            {
+                "id": 84,
+                "question": "How many times will the loop execute?\n\nfor(int i = 0; i < 5; i++) {\n    System.out.println(i);\n}",
+                "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "Infinite"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 85,
+                "question": "Which method is used to convert an integer to a string in Java?",
+                "options": [
+                    "toString()",
+                    "parseInt()",
+                    "valueOf()",
+                    "convert()"
+                ],
+                "answer": "valueOf()"
+            },
+            {
+                "id": 86,
+                "question": "What will be the output of the following code?\n\nint x = 5;\nx++;\nSystem.out.println(x);",
+                "options": [
+                    "5",
+                    "6",
+                    "4",
+                    "Error"
+                ],
+                "answer": "6"
+            },
+            {
+                "id": 87,
+                "question": "Which interface does java.util.HashMap implement?",
+                "options": [
+                    "List",
+                    "Set",
+                    "Map",
+                    "Collection"
+                ],
+                "answer": "Map"
+            },
+            {
+                "id": 88,
+                "question": "What will be the output of this code?\n\nStringBuilder sb = new StringBuilder(\"Hello\");\nsb.append(\" World\");\nSystem.out.println(sb);",
+                "options": [
+                    "Hello World",
+                    "Hello",
+                    " World",
+                    "Error"
+                ],
+                "answer": "Hello World"
+            },
+            {
+                "id": 89,
+                "question": "How can you make a class immutable in Java?",
+                "options": [
+                    "Make it final",
+                    "Make all fields private and final",
+                    "Do not provide setters",
+                    "All of the above"
+                ],
+                "answer": "All of the above"
+            },
+            {
+                "id": 90,
+                "question": "What will be the output of the following code?\n\nint x = 10;\nSystem.out.println(x > 5 ? \"Greater\" : \"Lesser\");",
+                "options": [
+                    "Greater",
+                    "Lesser",
+                    "5",
+                    "Error"
+                ],
+                "answer": "Greater"
+            },
+            {
+                "id": 91,
+                "question": "Which of these classes are part of the Java Collections Framework?",
+                "options": [
+                    "HashMap",
+                    "HashSet",
+                    "ArrayList",
+                    "All of the above"
+                ],
+                "answer": "All of the above"
+            },
+            {
+                "id": 92,
+                "question": "What does the 'this' keyword represent in Java?",
+                "options": [
+                    "The current class instance",
+                    "A static method",
+                    "The superclass instance",
+                    "A global variable"
+                ],
+                "answer": "The current class instance"
+            },
+            {
+                "id": 93,
+                "question": "What will be the output of the following code?\n\nSystem.out.println(3 * 3 + \"3\");",
+                "options": [
+                    "333",
+                    "99",
+                    "93",
+                    "12"
+                ],
+                "answer": "93"
+            },
+            {
+                "id": 94,
+                "question": "What is the purpose of the finally block in Java?",
+                "options": [
+                    "Execute code after try block, regardless of exception",
+                    "Catch exceptions",
+                    "Define a final value",
+                    "Execute only on exception"
+                ],
+                "answer": "Execute code after try block, regardless of exception"
+            },
+            {
+                "id": 95,
+                "question": "Which of these will throw a NullPointerException?",
+                "options": [
+                    "new Object().toString()",
+                    "null.toString()",
+                    "int x = 5;",
+                    "System.out.println(\"Hello\")"
+                ],
+                "answer": "null.toString()"
+            },
+            {
+                "id": 96,
+                "question": "What is the output of the following code?\n\nString str = \"Hello\";\nSystem.out.println(str.equals(\"hello\"));",
+                "options": [
+                    "true",
+                    "false",
+                    "Error",
+                    "null"
+                ],
+                "answer": "false"
+            },
+            {
+                "id": 97,
+                "question": "What does 'instanceof' keyword do in Java?",
+                "options": [
+                    "Checks for object type",
+                    "Creates an instance",
+                    "Implements an interface",
+                    "Declares a variable"
+                ],
+                "answer": "Checks for object type"
+            },
+            {
+                "id": 98,
+                "question": "What is method overloading in Java?",
+                "options": [
+                    "Same method name, different parameters",
+                    "Same method name, same parameters",
+                    "Different method name, same parameters",
+                    "Inheritance"
+                ],
+                "answer": "Same method name, different parameters"
+            },
+            {
+                "id": 99,
+                "question": "What is the output of the following code?\n\nString text = null;\nSystem.out.println(text + \"world\");",
+                "options": [
+                    "world",
+                    "nullworld",
+                    "Error",
+                    "null"
+                ],
+                "answer": "nullworld"
+            },
+            {
+                "id": 100,
+                "question": "Which class is the superclass of all classes in Java?",
+                "options": [
+                    "Object",
+                    "Class",
+                    "System",
+                    "Main"
+                ],
+                "answer": "Object"
+            }
+        ],
+        "Hard": [
+            {
+                "id": 101,
+                "question": "What will be the output of the following code?\n\nint[] nums = {1, 2, 3, 4, 5};\nSystem.out.println(nums[nums.length - 1]);",
+                "options": [
+                    "1",
+                    "2",
+                    "4",
+                    "5"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 102,
+                "question": "Which of the following classes is NOT synchronized in Java?",
+                "options": [
+                    "Vector",
+                    "Hashtable",
+                    "ArrayList",
+                    "StringBuffer"
+                ],
+                "answer": "ArrayList"
+            },
+            {
+                "id": 103,
+                "question": "What is the output of this code?\n\ntry {\n    throw new Exception(\"Test\");\n} catch(Exception e) {\n    System.out.println(e.getMessage());\n}",
+                "options": [
+                    "Test",
+                    "Exception",
+                    "Error",
+                    "null"
+                ],
+                "answer": "Test"
+            },
+            {
+                "id": 104,
+                "question": "What does the 'volatile' keyword ensure in Java?",
+                "options": [
+                    "Atomicity",
+                    "Visibility",
+                    "Synchronization",
+                    "Performance"
+                ],
+                "answer": "Visibility"
+            },
+            {
+                "id": 105,
+                "question": "Which data structure does java.util.PriorityQueue use internally?",
+                "options": [
+                    "Binary Search Tree",
+                    "Binary Heap",
+                    "Hash Table",
+                    "Linked List"
+                ],
+                "answer": "Binary Heap"
+            },
+            {
+                "id": 106,
+                "question": "What is the purpose of the 'transient' keyword in Java?",
+                "options": [
+                    "Prevent serialization of a field",
+                    "Make a variable final",
+                    "Initialize a variable to 0",
+                    "Create a new instance"
+                ],
+                "answer": "Prevent serialization of a field"
+            },
+            {
+                "id": 107,
+                "question": "In the Java memory model, which area stores static variables?",
+                "options": [
+                    "Stack",
+                    "Heap",
+                    "Method Area",
+                    "Runtime Constant Pool"
+                ],
+                "answer": "Method Area"
+            },
+            {
+                "id": 108,
+                "question": "What will be the result of the following code?\n\nint x = 10;\nSystem.out.println(++x - --x + x--);",
+                "options": [
+                    "9",
+                    "10",
+                    "11",
+                    "12"
+                ],
+                "answer": "10"
+            },
+            {
+                "id": 109,
+                "question": "What is the output of the following code?\n\nSystem.out.println(Thread.currentThread().getPriority());",
+                "options": [
+                    "0",
+                    "5",
+                    "10",
+                    "Depends on thread settings"
+                ],
+                "answer": "Depends on thread settings"
+            },
+            {
+                "id": 110,
+                "question": "What happens when a single object is accessed by multiple threads without synchronization?",
+                "options": [
+                    "Compilation error",
+                    "Data inconsistency",
+                    "Runtime error",
+                    "Automatic synchronization"
+                ],
+                "answer": "Data inconsistency"
+            },
+            {
+                "id": 111,
+                "question": "Which of these allows you to read data in a character stream?",
+                "options": [
+                    "FileInputStream",
+                    "FileReader",
+                    "BufferedOutputStream",
+                    "Scanner"
+                ],
+                "answer": "FileReader"
+            },
+            {
+                "id": 112,
+                "question": "What does the following code output?\n\nString str = \"Java\";\nSystem.out.println(str.replace('a', 'o'));",
+                "options": [
+                    "Java",
+                    "Jovo",
+                    "Joov",
+                    "Error"
+                ],
+                "answer": "Jovo"
+            },
+            {
+                "id": 113,
+                "question": "What is the output of the following code?\n\nint x = 10, y = 20;\nSystem.out.println(x++ + ++y);",
+                "options": [
+                    "30",
+                    "31",
+                    "32",
+                    "33"
+                ],
+                "answer": "31"
+            },
+            {
+                "id": 114,
+                "question": "Which of these classes provides an implementation of the Queue interface?",
+                "options": [
+                    "Stack",
+                    "PriorityQueue",
+                    "HashMap",
+                    "Hashtable"
+                ],
+                "answer": "PriorityQueue"
+            },
+            {
+                "id": 115,
+                "question": "What will be the output of the following code?\n\ntry {\n    int x = 10 / 0;\n} catch (ArithmeticException e) {\n    System.out.println(\"Error\");\n}",
+                "options": [
+                    "Error",
+                    "Runtime Error",
+                    "ArithmeticException",
+                    "Compilation Error"
+                ],
+                "answer": "Error"
+            },
+            {
+                "id": 116,
+                "question": "Which Java class provides methods for creating and working with threads?",
+                "options": [
+                    "Runnable",
+                    "Thread",
+                    "Executor",
+                    "Callable"
+                ],
+                "answer": "Thread"
+            },
+            {
+                "id": 117,
+                "question": "What will the following code print?\n\nString str = \"abc\";\nSystem.out.println(str.charAt(1));",
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "Exception"
+                ],
+                "answer": "b"
+            },
+            {
+                "id": 118,
+                "question": "Which method in Java is used to start a thread?",
+                "options": [
+                    "run()",
+                    "start()",
+                    "begin()",
+                    "init()"
+                ],
+                "answer": "start()"
+            },
+            {
+                "id": 119,
+                "question": "What does 'synchronized' keyword do in Java?",
+                "options": [
+                    "Allows only one thread to access a resource",
+                    "Enables multiple threads to access a resource",
+                    "Stops a thread",
+                    "Pauses a thread"
+                ],
+                "answer": "Allows only one thread to access a resource"
+            },
+            {
+                "id": 120,
+                "question": "What is the output of the following code?\n\nString str = \"Java\";\nSystem.out.println(str.concat(\" Programming\"));",
+                "options": [
+                    "Java Programming",
+                    "Java",
+                    "Programming",
+                    "Error"
+                ],
+                "answer": "Java Programming"
+            }
+        ]
+    },
+    "C++": {
+        "Easy": [
+            {
+                "id": 121,
+                "question": "What will be the output of the following code?\n\n#include <iostream>\nint main() {\n    std::cout << 2 + 3;\n    return 0;\n}",
+                "options": [
+                    "2",
+                    "3",
+                    "5",
+                    "Error"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 122,
+                "question": "Which header file is used for input and output operations in C++?",
+                "options": [
+                    "<iostream>",
+                    "<input>",
+                    "<file>",
+                    "<output>"
+                ],
+                "answer": "<iostream>"
+            },
+            {
+                "id": 123,
+                "question": "How do you declare an integer variable in C++?",
+                "options": [
+                    "int var;",
+                    "int = var;",
+                    "integer var;",
+                    "var int;"
+                ],
+                "answer": "int var;"
+            },
+            {
+                "id": 124,
+                "question": "What is the correct syntax to create a comment in C++?",
+                "options": [
+                    "/* Comment */",
+                    "// Comment",
+                    "-- Comment",
+                    "<!-- Comment -->"
+                ],
+                "answer": "// Comment"
+            },
+            {
+                "id": 125,
+                "question": "Which data type is used to store a sequence of characters?",
+                "options": [
+                    "int",
+                    "float",
+                    "string",
+                    "bool"
+                ],
+                "answer": "string"
+            },
+            {
+                "id": 126,
+                "question": "What will the following code output?\n\nint a = 10;\nstd::cout << ++a;",
+                "options": [
+                    "10",
+                    "11",
+                    "10 and then 11",
+                    "Error"
+                ],
+                "answer": "11"
+            },
+            {
+                "id": 127,
+                "question": "Which of these is the correct way to declare a floating-point variable?",
+                "options": [
+                    "float num = 1.5;",
+                    "double num = 1.5;",
+                    "int num = 1.5;",
+                    "Both float and double"
+                ],
+                "answer": "Both float and double"
+            },
+            {
+                "id": 128,
+                "question": "What does 'std' stand for in C++?",
+                "options": [
+                    "standard",
+                    "static definition",
+                    "statement",
+                    "standard directive"
+                ],
+                "answer": "standard"
+            },
+            {
+                "id": 129,
+                "question": "What will be the output of the following code?\n\nint a = 5;\nstd::cout << a++;",
+                "options": [
+                    "5",
+                    "6",
+                    "Error",
+                    "Undefined"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 130,
+                "question": "Which operator is used to get the address of a variable?",
+                "options": [
+                    "&",
+                    "*",
+                    "%",
+                    "#"
+                ],
+                "answer": "&"
+            },
+            {
+                "id": 131,
+                "question": "What is the result of the expression 10 % 3?",
+                "options": [
+                    "3",
+                    "1",
+                    "0",
+                    "Undefined"
+                ],
+                "answer": "1"
+            },
+            {
+                "id": 132,
+                "question": "Which loop is used to execute a block of code at least once?",
+                "options": [
+                    "for loop",
+                    "while loop",
+                    "do-while loop",
+                    "infinite loop"
+                ],
+                "answer": "do-while loop"
+            },
+            {
+                "id": 133,
+                "question": "What is the size of an int data type in C++?",
+                "options": [
+                    "2 bytes",
+                    "4 bytes",
+                    "8 bytes",
+                    "Depends on the system"
+                ],
+                "answer": "Depends on the system"
+            },
+            {
+                "id": 134,
+                "question": "How do you access the third element in an array named arr?",
+                "options": [
+                    "arr[2]",
+                    "arr[3]",
+                    "arr(2)",
+                    "arr(3)"
+                ],
+                "answer": "arr[2]"
+            },
+            {
+                "id": 135,
+                "question": "Which of these is the logical AND operator in C++?",
+                "options": [
+                    "&&",
+                    "&",
+                    "||",
+                    "!"
+                ],
+                "answer": "&&"
+            },
+            {
+                "id": 136,
+                "question": "What will the following code output?\n\nint a = 10;\nint b = 5;\nstd::cout << (a > b ? a : b);",
+                "options": [
+                    "10",
+                    "5",
+                    "True",
+                    "False"
+                ],
+                "answer": "10"
+            },
+            {
+                "id": 137,
+                "question": "Which of these functions is used to get a string input from the user?",
+                "options": [
+                    "cin",
+                    "getline",
+                    "scanf",
+                    "printf"
+                ],
+                "answer": "getline"
+            },
+            {
+                "id": 138,
+                "question": "What will be the output of the following code?\n\nint x = 5;\nx += 3;\nstd::cout << x;",
+                "options": [
+                    "5",
+                    "3",
+                    "8",
+                    "Error"
+                ],
+                "answer": "8"
+            },
+            {
+                "id": 139,
+                "question": "Which of these operators is used for dereferencing a pointer?",
+                "options": [
+                    "&",
+                    "*",
+                    "->",
+                    "::"
+                ],
+                "answer": "*"
+            },
+            {
+                "id": 140,
+                "question": "What will be the output of the following code?\n\nint a = 3;\nint b = 4;\nstd::cout << a * b;",
+                "options": [
+                    "7",
+                    "12",
+                    "34",
+                    "Error"
+                ],
+                "answer": "12"
+            }
+        ],
+        "Medium": [
+            {
+                "id": 141,
+                "question": "What will be the output of the following code?\n\nint a = 5;\na *= 2 + 3;\nstd::cout << a;",
+                "options": [
+                    "10",
+                    "15",
+                    "25",
+                    "5"
+                ],
+                "answer": "25"
+            },
+            {
+                "id": 142,
+                "question": "Which of the following can be used as a function return type to indicate that the function doesn't return any value?",
+                "options": [
+                    "void",
+                    "int",
+                    "float",
+                    "return"
+                ],
+                "answer": "void"
+            },
+            {
+                "id": 143,
+                "question": "Which of the following correctly creates a reference variable in C++?",
+                "options": [
+                    "int& ref = var;",
+                    "int ref = &var;",
+                    "int* ref = var;",
+                    "int ref = *var;"
+                ],
+                "answer": "int& ref = var;"
+            },
+            {
+                "id": 144,
+                "question": "What will be the output of the following code?\n\nint x = 5;\nint y = ++x * 2;\nstd::cout << y;",
+                "options": [
+                    "10",
+                    "12",
+                    "6",
+                    "14"
+                ],
+                "answer": "12"
+            },
+            {
+                "id": 145,
+                "question": "Which header file should be included for string operations in C++?",
+                "options": [
+                    "<string>",
+                    "<cstring>",
+                    "<iostream>",
+                    "<fstream>"
+                ],
+                "answer": "<string>"
+            },
+            {
+                "id": 146,
+                "question": "What will be the output of the following code?\n\nstd::string s = \"hello\";\ns[1] = 'a';\nstd::cout << s;",
+                "options": [
+                    "hello",
+                    "hallo",
+                    "healo",
+                    "Error"
+                ],
+                "answer": "hallo"
+            },
+            {
+                "id": 147,
+                "question": "Which of the following allows a class to have multiple forms?",
+                "options": [
+                    "Inheritance",
+                    "Polymorphism",
+                    "Encapsulation",
+                    "Abstraction"
+                ],
+                "answer": "Polymorphism"
+            },
+            {
+                "id": 148,
+                "question": "Which keyword is used to prevent a method from being overridden in derived classes?",
+                "options": [
+                    "final",
+                    "override",
+                    "protected",
+                    "static"
+                ],
+                "answer": "final"
+            },
+            {
+                "id": 149,
+                "question": "What will be the output of the following code?\n\nint arr[] = {1, 2, 3, 4};\nstd::cout << arr[2];",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "3"
+            },
+            {
+                "id": 150,
+                "question": "Which of these is the correct syntax for a do-while loop in C++?",
+                "options": [
+                    "do { } while(condition);",
+                    "while { } do(condition);",
+                    "do (condition) { } while;",
+                    "do { condition } while;"
+                ],
+                "answer": "do { } while(condition);"
+            },
+            {
+                "id": 151,
+                "question": "How can we access the 3rd element of a pointer array 'pArr'?",
+                "options": [
+                    "pArr[2]",
+                    "*(pArr+2)",
+                    "Both of the above",
+                    "None of the above"
+                ],
+                "answer": "Both of the above"
+            },
+            {
+                "id": 152,
+                "question": "Which of the following operators is used to allocate memory in C++?",
+                "options": [
+                    "new",
+                    "alloc",
+                    "malloc",
+                    "calloc"
+                ],
+                "answer": "new"
+            },
+            {
+                "id": 153,
+                "question": "What will be the output of the following code?\n\nint a = 10, b = 5;\na = a + b;\nb = a - b;\na = a - b;\nstd::cout << a << \", \" << b;",
+                "options": [
+                    "10, 5",
+                    "5, 10",
+                    "10, 10",
+                    "5, 5"
+                ],
+                "answer": "5, 10"
+            },
+            {
+                "id": 154,
+                "question": "What is the output of the following code?\n\nint a = 5, b = 3;\nint c = a | b;\nstd::cout << c;",
+                "options": [
+                    "1",
+                    "7",
+                    "5",
+                    "3"
+                ],
+                "answer": "7"
+            },
+            {
+                "id": 155,
+                "question": "Which of these is the correct syntax to define a pointer in C++?",
+                "options": [
+                    "int ptr;",
+                    "int ptr;",
+                    "int &ptr;",
+                    "int ptr&;"
+                ],
+                "answer": "int *ptr;"
+            },
+            {
+                "id": 156,
+                "question": "What is the result of the following expression?\n\n(10 < 5) && (5 < 10)",
+                "options": [
+                    "true",
+                    "false",
+                    "10",
+                    "5"
+                ],
+                "answer": "false"
+            },
+            {
+                "id": 157,
+                "question": "What will be the output of the following code?\n\nint a = 3;\nint b = 4;\na = a ^ b;\nb = a ^ b;\na = a ^ b;\nstd::cout << a << \", \" << b;",
+                "options": [
+                    "3, 4",
+                    "4, 3",
+                    "7, 0",
+                    "0, 7"
+                ],
+                "answer": "4, 3"
+            },
+            {
+                "id": 158,
+                "question": "What will be the output of the following code?\n\nint a = 5;\nstd::cout << (a << 1);",
+                "options": [
+                    "10",
+                    "11",
+                    "20",
+                    "Error"
+                ],
+                "answer": "10"
+            },
+            {
+                "id": 159,
+                "question": "What will be the output of the following code?\n\nint x = 6;\nstd::cout << (x >> 1);",
+                "options": [
+                    "3",
+                    "2",
+                    "1",
+                    "12"
+                ],
+                "answer": "3"
+            },
+            {
+                "id": 160,
+                "question": "Which of these types is used to handle floating-point numbers in C++?",
+                "options": [
+                    "int",
+                    "float",
+                    "bool",
+                    "char"
+                ],
+                "answer": "float"
+            }
+        ],
+        "Hard": [
+            {
+                "id": 161,
+                "question": "What will be the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 10;\n    int *p = &x;\n    *p += 10;\n    cout << x;\n}\n",
+                "options": [
+                    "10",
+                    "20",
+                    "30",
+                    "Error"
+                ],
+                "answer": "20"
+            },
+            {
+                "id": 162,
+                "question": "What is the result of the following code snippet?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 5;\n    int b = 10;\n    cout << (a > b ? a : b);\n}",
+                "options": [
+                    "5",
+                    "10",
+                    "Error",
+                    "None"
+                ],
+                "answer": "10"
+            },
+            {
+                "id": 163,
+                "question": "Which of the following correctly defines a template function in C++?",
+                "options": [
+                    "template <typename T> void func(T arg) {}",
+                    "template void func(T arg) {}",
+                    "void func<T>(T arg) {}",
+                    "template void func(arg)"
+                ],
+                "answer": "template <typename T> void func(T arg) {}"
+            },
+            {
+                "id": 164,
+                "question": "What will be the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[] = {1, 2, 3};\n    int *p = arr;\n    cout << *(p + 2);\n}",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "Error"
+                ],
+                "answer": "3"
+            },
+            {
+                "id": 165,
+                "question": "What will be the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 5;\n    int *p = &a;\n    cout << (*p)++;\n    cout << a;\n}",
+                "options": [
+                    "5, 6",
+                    "6, 5",
+                    "5, 5",
+                    "Error"
+                ],
+                "answer": "5, 6"
+            },
+            {
+                "id": 166,
+                "question": "What will be the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    const int x = 5;\n    int p = (int)&x;\n    (*p)++;\n    cout << x;\n}",
+                "options": [
+                    "5",
+                    "6",
+                    "Error",
+                    "Undefined Behavior"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 167,
+                "question": "What is the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 3, b = 5;\n    cout << (a & b);\n}",
+                "options": [
+                    "1",
+                    "3",
+                    "5",
+                    "0"
+                ],
+                "answer": "1"
+            },
+            {
+                "id": 168,
+                "question": "Which of the following statements about exception handling in C++ is true?",
+                "options": [
+                    "Only one catch block can be used",
+                    "Multiple catch blocks can be used",
+                    "No catch block is required",
+                    "Catch blocks cannot be ordered"
+                ],
+                "answer": "Multiple catch blocks can be used"
+            },
+            {
+                "id": 169,
+                "question": "What is the output of the following code?\n\n#include <iostream>\nusing namespace std;\nclass Base {\npublic:\n    virtual void show() { cout << \"Base\"; }\n};\nclass Derived : public Base {\npublic:\n    void show() { cout << \"Derived\"; }\n};\nint main() {\n    Base *b = new Derived();\n    b->show();\n}",
+                "options": [
+                    "Base",
+                    "Derived",
+                    "Error",
+                    "None"
+                ],
+                "answer": "Derived"
+            },
+            {
+                "id": 170,
+                "question": "What is the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 10;\n    int b = 20;\n    cout << (a > b) << (a < b);\n}",
+                "options": [
+                    "11",
+                    "10",
+                    "01",
+                    "00"
+                ],
+                "answer": "01"
+            },
+            {
+                "id": 171,
+                "question": "Which of the following statements is true about smart pointers in C++?",
+                "options": [
+                    "They manage memory automatically",
+                    "They cannot be used with custom deleters",
+                    "They are the same as raw pointers",
+                    "They cannot be copied"
+                ],
+                "answer": "They manage memory automatically"
+            },
+            {
+                "id": 172,
+                "question": "What will be the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 0;\n    while(x < 5) {\n        x++;\n    }\n    cout << x;\n}",
+                "options": [
+                    "0",
+                    "4",
+                    "5",
+                    "Error"
+                ],
+                "answer": "5"
+            },
+            {
+                "id": 173,
+                "question": "What is the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    int y = 10;\n    int z = x & y;\n    cout << z;\n}",
+                "options": [
+                    "0",
+                    "5",
+                    "10",
+                    "15"
+                ],
+                "answer": "0"
+            },
+            {
+                "id": 174,
+                "question": "What will be the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    for(int i = 0; i < 5; i++);\n    cout << i;\n}",
+                "options": [
+                    "4",
+                    "5",
+                    "0",
+                    "Error"
+                ],
+                "answer": "Error"
+            },
+            {
+                "id": 175,
+                "question": "What does the following code snippet do?\n\nstd::vector<int> vec(10);\nstd::fill(vec.begin(), vec.end(), 5);",
+                "options": [
+                    "Fills the vector with zeros",
+                    "Fills the vector with fives",
+                    "Clears the vector",
+                    "Creates an empty vector"
+                ],
+                "answer": "Fills the vector with fives"
+            },
+            {
+                "id": 176,
+                "question": "What is the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 10;\n    int *p = new int(x);\n    cout << *p;\n    delete p;\n}",
+                "options": [
+                    "10",
+                    "Error",
+                    "Undefined Behavior",
+                    "None"
+                ],
+                "answer": "10"
+            },
+            {
+                "id": 177,
+                "question": "Which of the following data structures is implemented as a linked list in C++ Standard Template Library (STL)?",
+                "options": [
+                    "vector",
+                    "deque",
+                    "list",
+                    "array"
+                ],
+                "answer": "list"
+            },
+            {
+                "id": 178,
+                "question": "What is the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    std::string str = \"C++\";\n    str += \" Programming\";\n    cout << str;\n}",
+                "options": [
+                    "C++",
+                    "C++ Programming",
+                    "C++Programming",
+                    "Error"
+                ],
+                "answer": "C++ Programming"
+            },
+            {
+                "id": 179,
+                "question": "Which of the following is NOT a valid way to declare a function pointer in C++?",
+                "options": [
+                    "int (*ptr)(int);",
+                    "int ptr(int);",
+                    "int &ptr(int);",
+                    "int *ptr;"
+                ],
+                "answer": "int &ptr(int);"
+            },
+            {
+                "id": 180,
+                "question": "What will be the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 5;\n    int b = 10;\n    int c = a + b;\n    cout << c;\n}",
+                "options": [
+                    "15",
+                    "5",
+                    "10",
+                    "Error"
+                ],
+                "answer": "15"
+            }
+        ]
+    }
+}

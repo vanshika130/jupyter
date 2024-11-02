@@ -1,0 +1,272 @@
+[
+    {
+        "project_id": 1,
+        "title": "AI Chatbot",
+        "description": "A chatbot that uses AI to interact with users.",
+        "tech_stack": "Python, Flask, NLP",
+        "hackathon_id": 101,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/ai-chatbot"
+    },
+    {
+        "project_id": 2,
+        "title": "Web Development Course",
+        "description": "An online course platform for web development.",
+        "tech_stack": "HTML, CSS, JavaScript, React",
+        "hackathon_id": 102,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/web-course"
+    },
+    {
+        "project_id": 3,
+        "title": "Data Visualization Tool",
+        "description": "A tool for visualizing data in real-time.",
+        "tech_stack": "Python, Dash, Plotly",
+        "hackathon_id": 103,
+        "team_member_status": "Closed",
+        "repository_link": "https://github.com/data-viz-tool"
+    },
+    {
+        "project_id": 4,
+        "title": "Game Development Engine",
+        "description": "A game engine for developing 2D games.",
+        "tech_stack": "C++, Unity",
+        "hackathon_id": 104,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/game-engine"
+    },
+    {
+        "project_id": 5,
+        "title": "Big Data Analytics Platform",
+        "description": "A platform for analyzing big datasets.",
+        "tech_stack": "Java, Spark, Hadoop",
+        "hackathon_id": 105,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/big-data-platform"
+    },
+    {
+        "project_id": 6,
+        "title": "Machine Learning API",
+        "description": "API for various machine learning algorithms.",
+        "tech_stack": "Python, Flask, Scikit-learn",
+        "hackathon_id": 106,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/ml-api"
+    },
+    {
+        "project_id": 7,
+        "title": "Social Media App",
+        "description": "A social media application for connecting users.",
+        "tech_stack": "React, Node.js, MongoDB",
+        "hackathon_id": 107,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/social-app"
+    },
+    {
+        "project_id": 8,
+        "title": "E-commerce Platform",
+        "description": "A full-fledged e-commerce platform.",
+        "tech_stack": "Java, Spring, MySQL",
+        "hackathon_id": 108,
+        "team_member_status": "Closed",
+        "repository_link": "https://github.com/e-commerce-app"
+    },
+    {
+        "project_id": 9,
+        "title": "Smart Home System",
+        "description": "A system for automating home devices.",
+        "tech_stack": "C++, Arduino",
+        "hackathon_id": 109,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/smart-home"
+    },
+    {
+        "project_id": 10,
+        "title": "Fitness Tracker",
+        "description": "An application for tracking fitness activities.",
+        "tech_stack": "Python, Django",
+        "hackathon_id": 110,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/fitness-tracker"
+    },
+    {
+        "project_id": 11,
+        "title": "Task Management Tool",
+        "description": "A tool for managing personal tasks.",
+        "tech_stack": "JavaScript, Node.js, Express",
+        "hackathon_id": 111,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/task-manager"
+    },
+    {
+        "project_id": 12,
+        "title": "Music Streaming Service",
+        "description": "A service for streaming music.",
+        "tech_stack": "React, Node.js, Firebase",
+        "hackathon_id": 112,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/music-stream"
+    },
+    {
+        "project_id": 13,
+        "title": "Travel Planning App",
+        "description": "An app for planning travel itineraries.",
+        "tech_stack": "Python, Flask, SQLite",
+        "hackathon_id": 113,
+        "team_member_status": "Closed",
+        "repository_link": "https://github.com/travel-app"
+    },
+    {
+        "project_id": 14,
+        "title": "Blogging Platform",
+        "description": "A platform for writing and sharing blogs.",
+        "tech_stack": "Ruby on Rails, PostgreSQL",
+        "hackathon_id": 114,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/blog-platform"
+    },
+    {
+        "project_id": 15,
+        "title": "Online Voting System",
+        "description": "A secure online voting system.",
+        "tech_stack": "Java, Spring, Hibernate",
+        "hackathon_id": 115,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/voting-system"
+    },
+    {
+        "project_id": 16,
+        "title": "Cryptocurrency Tracker",
+        "description": "An app for tracking cryptocurrency prices.",
+        "tech_stack": "JavaScript, React, Redux",
+        "hackathon_id": 116,
+        "team_member_status": "Closed",
+        "repository_link": "https://github.com/crypto-tracker"
+    },
+    {
+        "project_id": 17,
+        "title": "Recipe Finder",
+        "description": "A web application for finding recipes.",
+        "tech_stack": "Python, Flask, BeautifulSoup",
+        "hackathon_id": 117,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/recipe-finder"
+    },
+    {
+        "project_id": 18,
+        "title": "Event Management System",
+        "description": "A system for managing events and registrations.",
+        "tech_stack": "Java, Spring Boot, MySQL",
+        "hackathon_id": 118,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/event-manager"
+    },
+    {
+        "project_id": 19,
+        "title": "Chat Application",
+        "description": "A real-time chat application.",
+        "tech_stack": "Node.js, Socket.io",
+        "hackathon_id": 119,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/chat-app"
+    },
+    {
+        "project_id": 20,
+        "title": "Personal Finance Tracker",
+        "description": "A tool for tracking personal finances.",
+        "tech_stack": "Python, Flask, SQLite",
+        "hackathon_id": 120,
+        "team_member_status": "Closed",
+        "repository_link": "https://github.com/finance-tracker"
+    },
+    {
+        "project_id": 21,
+        "title": "Online Learning Platform",
+        "description": "A platform for online courses and tutorials.",
+        "tech_stack": "Django, PostgreSQL",
+        "hackathon_id": 121,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/learning-platform"
+    },
+    {
+        "project_id": 22,
+        "title": "Virtual Reality Game",
+        "description": "A game designed for virtual reality.",
+        "tech_stack": "Unity, C#",
+        "hackathon_id": 122,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/vr-game"
+    },
+    {
+        "project_id": 23,
+        "title": "Health Monitoring System",
+        "description": "A system for monitoring health parameters.",
+        "tech_stack": "Java, Spring, MySQL",
+        "hackathon_id": 123,
+        "team_member_status": "Closed",
+        "repository_link": "https://github.com/health-monitor"
+    },
+    {
+        "project_id": 24,
+        "title": "Fitness Challenge App",
+        "description": "An app for joining fitness challenges.",
+        "tech_stack": "React Native, Firebase",
+        "hackathon_id": 124,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/fitness-challenge"
+    },
+    {
+        "project_id": 25,
+        "title": "Language Learning App",
+        "description": "An app for learning new languages.",
+        "tech_stack": "React, Node.js, MongoDB",
+        "hackathon_id": 125,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/language-learning"
+    },
+    {
+        "project_id": 26,
+        "title": "Weather Forecast Application",
+        "description": "An application for weather forecasting.",
+        "tech_stack": "Python, Flask, API Integration",
+        "hackathon_id": 126,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/weather-app"
+    },
+    {
+        "project_id": 27,
+        "title": "Digital Art Gallery",
+        "description": "An online gallery for showcasing digital art.",
+        "tech_stack": "JavaScript, Node.js, MongoDB",
+        "hackathon_id": 127,
+        "team_member_status": "Closed",
+        "repository_link": "https://github.com/art-gallery"
+    },
+    {
+        "project_id": 28,
+        "title": "Travel Budget Planner",
+        "description": "A tool for planning and managing travel budgets.",
+        "tech_stack": "Python, Django, SQLite",
+        "hackathon_id": 128,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/travel-budget"
+    },
+    {
+        "project_id": 29,
+        "title": "Coding Challenge Platform",
+        "description": "A platform for hosting coding challenges.",
+        "tech_stack": "PHP, Laravel, MySQL",
+        "hackathon_id": 129,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/coding-challenge"
+    },
+    {
+        "project_id": 30,
+        "title": "Sustainability Tracker",
+        "description": "An app for tracking sustainability efforts.",
+        "tech_stack": "Python, Flask, PostgreSQL",
+        "hackathon_id": 130,
+        "team_member_status": "Open",
+        "repository_link": "https://github.com/sustainability-tracker"
+    }
+]
