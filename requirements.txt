@@ -1,4 +1,0 @@
-flask
-werkzeug
-nest_asyncio
-sqlite3
